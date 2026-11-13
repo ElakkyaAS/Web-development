@@ -201,7 +201,7 @@ li {
     text-shadow: 0 0 15px red;
 } 
 
-/* Booking Summary Heading */
+
 .summary-title {
     color: #F5F5F5;
     text-align: center;
@@ -210,7 +210,7 @@ li {
     letter-spacing: 1px;
 }
 
-/* Booking Summary Details */
+
 .summary-item {
     color: aqua;
     font-size: 18px;
@@ -277,3 +277,13 @@ padding: 10px 20px;
 cursor:pointer;
 }
 
+#toast{
+    visibility: hidden;
+    background-color: greenyellow;
+    color: navy;
+    padding: 15px 20px;
+    border-radius: 8px;
+    position: fixed;
+    bottom:30px;
+    right: 30px;
+}
